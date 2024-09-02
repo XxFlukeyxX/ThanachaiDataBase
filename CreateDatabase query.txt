@@ -1,0 +1,16 @@
+CREATE DATABASE ThanachaiDatabase;
+
+USE ThanachaiDatabase;
+
+CREATE TABLE Computers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    brand_name VARCHAR(255),
+    model_name VARCHAR(255),
+    serial_number VARCHAR(255),
+    stock_quantity INT,
+    price DECIMAL(10,2),
+    cpu_speed VARCHAR(255),
+    memory_size VARCHAR(255),
+    hard_disk_size VARCHAR(255),
+    image_url VARCHAR(255)
+);
